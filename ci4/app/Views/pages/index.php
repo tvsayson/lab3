@@ -274,7 +274,7 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();*/
 ?>
-    </div>
+    
 
     <script src="js/script.js"></script>
   </body>

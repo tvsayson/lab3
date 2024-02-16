@@ -1,6 +1,7 @@
 body{
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
   background: linear-gradient(
     to top,
     #05BFDB 0%,
@@ -20,7 +21,7 @@ body{
   outline: 3px solid blue;  
   border-radius: 12px;  
   font-size: 20px;   
-  margin: 80px; 
+  margin: 100px; 
   margin-top: 40px; 
   padding: 10px;  
   outline-offset: 0.5em;  
@@ -50,9 +51,4 @@ h2, h3 {
     padding: 2px;
     position: relative;
 }
-#toolbarContainer{ 
-   
-  font-size: 20px;   
-  
-  
-}
+
