@@ -264,7 +264,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO tvsayson_myguests (name, email, website, comment, gender)
-VALUES ('$name', '$email', '$website', '$comment', '$gender')";
+VALUES ('$name', '$email', '$website', '$comment', '$gender');
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
