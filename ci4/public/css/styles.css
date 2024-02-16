@@ -1,0 +1,58 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    #05BFDB 0%,
+    #05BFDB 50%,
+    #00FFCA 0%,
+    #00FFCA 50%
+  );
+  font-family: Tahoma;
+  font-size: 20px;
+  text-align: center;
+}
+#Me{
+	border: 5px solid blue;
+}
+.border {  
+  border: 3px solid red;  
+  outline: 3px solid blue;  
+  border-radius: 12px;  
+  font-size: 20px;   
+  margin: 80px; 
+  margin-top: 40px; 
+  padding: 10px;  
+  outline-offset: 0.5em;  
+}    
+h1{
+	background-color: #0A4D68;
+	color:whitesmoke;
+	border: 2px solid black;
+	margin: auto;
+	margin-bottom: 20px;
+    width: 500px;
+    padding: 20px;
+    border-style: dotted;
+    border: 2px solid black;
+    padding: 2px;
+    position: relative;
+}
+h2, h3 {
+    background-color: #33FF6E;
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    border-style: dotted;
+    border: 2px solid black;
+    padding: 2px;
+    position: relative;
+}
+#toolbarContainer{ 
+   
+  font-size: 20px;   
+  
+  
+}
