@@ -49,7 +49,7 @@ public function new()
             . view('guests/create')
             . view('templates/guestfooter');
     }
-    public function create()
+public function create()
     {
         helper('form');
 
